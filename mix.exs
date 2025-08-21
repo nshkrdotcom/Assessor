@@ -36,9 +36,10 @@ defmodule Assessor.MixProject do
   defp package do
     [
       name: "assessor",
-      files: ["lib", "mix.exs", "README.md"],
-      licenses: ["Apache-2.0"],
-      links: %{"GitHub" => "https://github.com/nshkrdotcom/Assessor"}
+      files: ["lib", "mix.exs", "README.md", "LICENSE"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/nshkrdotcom/Assessor"},
+      authors: ["nshkrdotcom <ZeroTrust@NSHkr.com>"]
     ]
   end
 end
